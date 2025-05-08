@@ -1,10 +1,10 @@
 body{
     width: 800px;
-    background-color: #547792;
+    background-color: #DBDBDB;
     margin: 0 auto;
 }
 nav a{
-    color: #DBDBDB;
+    color: #213448;
     display:inline-block;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +18,7 @@ nav a{
 }
 
 nav a:hover{
-    color:#213448;
+    color:#547792;
     transform: scaleX(0.75);
 }
 header h1{
@@ -26,34 +26,34 @@ header h1{
     color: #213448;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 1px 1px 3px #DBDBDB ;
+    text-shadow: 1px 1px 3px #547792 ;
   
 }
 header p{
-    color: #DBDBDB;
+    color: #213448;
     margin-bottom: 10px;
     font-display: sans-serif;
     
 }
 footer p{
-    color: #DBDBDB;
+    color: #547792;
     background-color: #213448;
     padding: 20px;
     text-align: center;
 }
 header img{
     padding: 15px;
-    filter:drop-shadow(10px 7px 10px white)
+    filter:drop-shadow(10px 7px 10px #547792)
 }
 article h2{
     align-items: center;
     color: #213448;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-shadow: 1px 1px 3px #DBDBDB ;
+    text-shadow: 1px 1px 3px #547792 ;
 }
 article p{
-    color: #DBDBDB;
+    color: #213448;
     margin-bottom: 10px;
     font-display: sans-serif;
 }  
@@ -62,35 +62,37 @@ div th{
     text-shadow: 1px 1px 3px #213448 ;
 }
 div ul{
-    color: #DBDBDB;
+    color: #213448;
 }
 
-form input  {
+form [type="email"] {
     font-family: "Lora", serif;
             border-radius: 5px;
             margin: 4px 2px;
             text-align: center;
              font-size: 16px;
-             background-color: #DBDBDB; 
-             color: #213448;
-             border: none;
+             border: 2px solid #213448;
                 padding: 10px 20px;
                 text-decoration: none;
                 text-shadow: 1px 1px 3px ;
+                background-color: #DBDBDB;
+               
+                
 }
 form textarea{
          font-family: "Lora", serif;
             border-radius: 5px;
             margin: 4px 2px;
             font-size: 16px;
-            background-color: #DBDBDB; 
+            border: 2px solid #213448;
             color: #213448;
+            background-color: #DBDBDB;
             
            
 }
 form label{
     text-shadow: 1px 1px 3px ;
-    color: #DBDBDB;
+    color: #213448;
     margin: 10px;
     padding: 2px;
     border: none;
@@ -98,16 +100,17 @@ form label{
      font-size: 17px;
 }
 div h1{
-    text-shadow: 1px 1px 3px #DBDBDB ;
+    text-shadow: 1px 1px 3px #547792 ;
 }
 article h1{
-    text-shadow: 1px 1px 3px #DBDBDB ;
+    text-shadow: 1px 1px 3px #547792 ;
 }
 ::placeholder{
     color: #213448;
     text-shadow: 1px 1px 3px ;
+   
 }
-form button{
+form [type="submit"]{
     font-family: "Lora", serif;
     border-radius: 5px;
     margin: 4px 2px;
@@ -121,3 +124,4 @@ form button{
         cursor: pointer;
         text-shadow: 1px 1px 3px ;
 }
+
